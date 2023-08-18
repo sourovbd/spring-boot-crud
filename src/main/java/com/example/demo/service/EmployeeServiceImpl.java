@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.exception.EmployeeNotFoundException;
+import com.example.demo.entity.EmployeeEntity;
 import com.example.demo.model.Employee;
 import org.springframework.stereotype.Service;
 

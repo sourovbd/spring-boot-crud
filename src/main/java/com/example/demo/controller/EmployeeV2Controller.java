@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/v1/employees")
+@RequestMapping("/v2/employees")
 @RequiredArgsConstructor
-public class EmployeeController {
+public class EmployeeV2Controller {
 
-    @Qualifier("employeeServiceImpl")
+    @Qualifier("employeeV2ServiceImpl")
     @Autowired
     private EmployeeService employeeService;
 

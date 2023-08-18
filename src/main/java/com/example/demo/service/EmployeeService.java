@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
+import com.example.demo.entity.EmployeeEntity;
 import com.example.demo.model.Employee;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
