@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @Data
-@JsonIgnoreProperties({"department", "employeeId"})
+//@JsonIgnoreProperties({"department", "employeeId"})
 public class Employee {
 
     private String employeeId;
